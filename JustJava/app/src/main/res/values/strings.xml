@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Just Java</string>
+    <string name="quantity">quantity</string>
+    <string name="toppings">toppings</string>
+    <string name="wipped_cream">wipped cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="hint_name_customer">Write your name</string>
+    <string name="hint_mail_customer">Write your mail address</string>
+    <string name="name_customer">name</string>
+    <string name="mail_customer">mail</string>
+    <string name="price">price</string>
+    <string name="order">order now</string>
+    <string name="more100">more than 100 cups of coffee are not allowed</string>
+    <string name="less1">less than 1 cups of coffee are not allowed</string>
+</resources>

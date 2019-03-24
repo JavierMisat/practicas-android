@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/custom_root_layout"
+              android:layout_width="300dp"
+              android:layout_height="fill_parent"
+              android:background="@color/verde"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/custom_title"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Nuevo Aviso:"
+        android:textColor="@color/blanco"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/custom_edit_reminder"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_margin="4dp"
+        android:background="@color/gris_claro"
+        android:gravity="start"
+        android:textColor="@color/negro">
+        <requestFocus />
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/custom_check_box"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_margin="4dp"
+        android:background="@color/negro"
+        android:paddingLeft="32dp"
+        android:text="Importante"
+        android:textColor="@color/blanco" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/custom_button_cancel"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="50"
+            android:text="Cancelar"
+            android:textColor="@color/negro"
+            />
+
+        <Button
+            android:id="@+id/custom_button_commit"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="50"
+            android:text="Enviar"
+            android:textColor="@color/negro"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

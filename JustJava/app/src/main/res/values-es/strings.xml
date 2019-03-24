@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Just Java</string>
+    <string name="quantity">cantidad</string>
+    <string name="toppings">Ingredientes</string>
+    <string name="wipped_cream">crema batida</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="hint_name_customer">Escriba su nombre</string>
+    <string name="hint_mail_customer">Escriba su correo electrónico</string>
+    <string name="name_customer">Nombre cliente</string>
+    <string name="mail_customer">Correo de cliente</string>
+    <string name="price">precio</string>
+    <string name="order">ordenar ahora</string>
+    <string name="more100">más de 100 tazas de café no es permitido</string>
+    <string name="less1">menos de 1 tazas de café no es permitido</string>
+</resources>
+

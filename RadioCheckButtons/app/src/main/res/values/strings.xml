@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">App Actividad</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="txt_genero">Selecciona un Genero</string>
+    <string name="radio_hombre">Hombre</string>
+    <string name="radio_mujer">Mujer</string>
+    <string name="check_contrato">Aceptas los terminos y condiciones</string>
+    <string name="txt_bienvenida">¡¡ Ola ke Ase !!</string>
+    <string name="btn_regresar">Regresar</string>
+
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="txt_cargando">Cargando...</string>
+</resources>

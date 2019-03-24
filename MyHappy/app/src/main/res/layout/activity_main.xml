@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:textAlignment="center"
+    android:background="#F50057"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rodrigomisat.myhappy.MainActivity">
+
+
+    <ImageView
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/playa"/>
+
+
+    <TextView
+        android:paddingLeft="16dp"
+        android:paddingBottom="8dp"
+        android:textColor="#fff"
+        android:text="You're invited!"
+        android:textSize="45sp"
+        android:background="#009688"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        android:textColor="#fff"
+        android:text="Bonfire at the beach"
+        android:textSize="24sp"
+        android:background="#009688"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_width="match_parent"/>
+
+
+
+</LinearLayout>

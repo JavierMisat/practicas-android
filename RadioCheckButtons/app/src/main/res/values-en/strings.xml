@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Actividad</string>
+    <string name="btn_ingresar">Accept</string>
+    <string name="check_contrato">Accept terms and conditions</string>
+    <string name="radio_hombre">Man</string>
+    <string name="radio_mujer">Women</string>
+    <string name="txt_genero">Select your gender</string>
+</resources>

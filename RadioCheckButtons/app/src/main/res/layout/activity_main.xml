@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.innovamos.radiocheckbuttons.MainActivity">
+
+    <CheckBox
+        android:text="@string/check_contrato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check_contrato"
+        app:layout_constraintLeft_toLeftOf="@+id/grupoGenero"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/grupoGenero" />
+
+    <Button
+        android:text="@string/btn_ingresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ingresar"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/check_contrato"
+        android:onClick="clickIngresar" />
+
+    <TextView
+        android:text="@string/txt_genero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_genero"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:layout_width="352dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/grupoGenero"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/txt_genero"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:weightSum="1"
+        android:clickable="false">
+
+        <RadioButton
+            android:text="@string/radio_hombre"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:id="@+id/radio_hombre"
+            android:contentDescription="@string/radio_hombre"
+            style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+            android:clickable="false" />
+
+        <RadioButton
+            android:text="@string/radio_mujer"
+            android:layout_width="match_parent"
+            android:id="@+id/radio_mujer"
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/radio_mujer"
+            android:layout_height="44dp"
+            style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+            android:clickable="false" />
+
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>
